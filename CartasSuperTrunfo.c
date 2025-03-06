@@ -21,7 +21,7 @@ int main() {
     // Cadastro carta 1
 
     printf("***** Super Trunfo *****\n      Wadson Brito\n\n");
-    printf("Carta 1\n");
+    printf("Carta 1\n\n");
 
     printf("Digite o Estado: ");
     scanf("%s", &estado1);
@@ -40,7 +40,7 @@ int main() {
 
     // Cadastro Carta 2
 
-    printf("Carta 2\n");
+    printf("Carta 2\n\n");
 
     printf("Digite o Estado: ");
     scanf("%s", &estado2);
@@ -102,7 +102,7 @@ int main() {
      printf("PIB per capita: %f reais\n\n", pibpercapita2);
      
      // Resultado
-     printf(" Comparação das Cartas:\n");
+     printf(" Comparação das Cartas:\n\n");
      printf("População carta 1 venceu (%d)\n", (int)populacao);
      printf("Aréa carta 1 venceu (%d)\n", (int)area);
      printf("PIB carta 1 venceu (%d)\n", (int)pib);
