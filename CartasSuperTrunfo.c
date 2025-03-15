@@ -54,7 +54,7 @@ int main() {
     scanf("%f", &area2);
     printf("Digite o PIB: ");
     scanf("%f", &pib2);
-    printf("Digite o número de pontos turisticos: \n");
+    printf("Digite o número de pontos turisticos: ");
     scanf("%d", &pontosturisticos2);  
 
     densidade1 = (populacao1 / area1);
@@ -65,14 +65,14 @@ int main() {
     // Menu de interação com o usuário
     // Escolha da primeira comparação
 
-    printf("#### Menu comparção de cartas ####\n\n");
+    printf("\n#### Menu comparção de cartas ####\n\n");
     printf("Escolha a primeira comparação:\n");
     printf("1. População\n");
     printf("2. Área\n");
     printf("3. PIB\n");
     printf("4. Pontos Turisticos\n");
     printf("5. Densidade demográfica:\n");
-    printf("Escolha sua comparação: \n");
+    printf("Escolha sua comparação: ");
     scanf("%d", &atributo1);
 
   switch (atributo1)
@@ -153,9 +153,9 @@ int main() {
   
       // Exibição de comparação
 printf("##### RESULTADO DA COMPARAÇÃO #####\n");
-printf("Carta 1 - Estado: %s\n Carta 2 - Estado: %s\n", estado1, estado2);
-printf("Atributos selecionados para comparação Carta 1 - %d\n Carta 2 - %d\n", atributo1, atributo2);
-printf("Valor de cada comparação Carta 1 - %d\n Carta 2 - %d\n", comparacao1, comparacao2);
+printf("Carta 1 - Estado: %s\nCarta 2 - Estado: %s\n", estado1, estado2);
+printf("Atributos selecionados para comparação Carta 1 - %d\nCarta 2 - %d\n", atributo1, atributo2);
+printf("Valor de cada comparação Carta 1 - %d\nCarta 2 - %d\n", comparacao1, comparacao2);
 
     /*printf("Carta 1 - Estado: %s, População: %u\n", estado1, populacao1);
     printf("Carta 2 - Estado: %s, População: %u\n", estado2, populacao2); 
